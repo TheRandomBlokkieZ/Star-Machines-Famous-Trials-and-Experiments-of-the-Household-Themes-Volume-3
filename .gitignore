@@ -1,0 +1,46 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+.nomedia
+
+# Godot-specific ignores
+.import/
+export.cfg
+export_credentials.cfg
+*.tmp
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+
+# .NET / Visual Studio ignores
+[Bb]in/
+[Oo]bj/
+.vs/
+.idea/ # Optional, for JetBrains Rider/IntelliJ
+*.user
+*.suo
+*.sln.GhostDoc.xml
+
+# macOS specific ignores
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows specific ignores
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux specific ignores
+~
+.nfs
